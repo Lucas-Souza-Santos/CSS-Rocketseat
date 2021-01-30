@@ -170,4 +170,18 @@ column-rule, columns,, flex, flex-flow, font, grid, grid-area, grid-column,
 grid-row, grid-template, list-style, margin, offset, outline, overflow, padding, 
 place-content, place-items, place-self, text-decoration, transition
 
+# Funções 
+* nome seguido de abre e fecha parentesis 
+* recebe argumentos 
+
+## Exemplos
+```
+    css
+    @import url("http://urlaqui.com/style.css");
+
+    {
+        color: rgb(255, 0, 100);
+        width: calc(100% - 10px);
+    }
+```
 
