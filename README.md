@@ -1,16 +1,16 @@
 # CSS-Rocketseat
 Curso básico de css
 
-## Introdução
+# Introdução
 
-###  O que significa CSS ?
+##  O que significa CSS ?
 * Cascading Style Sheet 
 * Código para criar estilos no HTML 
 * HTML é a estrutura, e o CSS é a beleza 
 * Não é uma linguagem de programação
 * É uma linguagem de style sheet
 
-### Comentários 
+## Comentários 
 * Não irá afetar o seu código 
 * Ajuda a lembrar blocos de códigos 
 * Deixa dicas para leitura 
@@ -33,3 +33,29 @@ Comentários começa com `/*` e terminan com `*/`
     }
 
 ```
+
+# Anatomia 
+```
+    CSS
+    h1{
+        color: blue;
+        font-size: 60px;
+        background: gray;
+    }
+```
+
+* Selector
+* Declaration 
+* Properties 
+* Property Value 
+
+# selector
+    Conecta um elemento HTML com o CSS 
+
+## Tipos 
+* Global selector `*`;
+* Element/Type selector `h1, h2, p, div`
+* ID Selector `#box, #container`
+* Class Selector `.red, .m-4`
+* Attribute selector, Pseudo-class, Pseudo-element, e outros
+
